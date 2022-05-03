@@ -1,0 +1,23 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.list-item {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.list-span--color {
+    border-radius: 1em;
+    box-shadow: 0 1px 4px gray;
+    width: 0.8rem;
+    height: 0.8rem;
+    display: block;
+}
